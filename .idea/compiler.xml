@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="shared-strategy" target="17" />
+      <module name="shared-strategy" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>

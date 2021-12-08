@@ -6,14 +6,14 @@
 
     <groupId>fr.uga.miage.m1</groupId>
     <artifactId>shared-strategy</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>Prisoner's Dilemma Shared Strategy</name>
     <url>https://github.com/Lxsvn98/prisoners-dilemma-shared-strategy</url>
 
     <properties>
-        <java.version>15</java.version>
+        <java.version>14</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -33,8 +33,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>15</source>
-                    <target>15</target>
+                    <source>14</source>
+                    <target>14</target>
                 </configuration>
             </plugin>
         </plugins>
