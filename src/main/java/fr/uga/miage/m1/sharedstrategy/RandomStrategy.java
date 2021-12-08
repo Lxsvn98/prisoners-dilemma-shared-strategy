@@ -2,7 +2,7 @@ package fr.uga.miage.m1.sharedstrategy;
 
 import java.util.Random;
 
-class RandomStrategy implements IStrategy {
+public class RandomStrategy implements IStrategy {
     private static final double OPPOSITE_CHOICE_DEFAULT_PROBABILITY = 0.1;
 
     protected static final Random RANDOM = new Random();
