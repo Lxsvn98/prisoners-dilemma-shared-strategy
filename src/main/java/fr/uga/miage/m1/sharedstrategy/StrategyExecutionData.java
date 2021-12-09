@@ -6,8 +6,8 @@ import java.util.function.BiFunction;
 
 public class StrategyExecutionData {
     private int gameCurrentTurnCount;
-    private int mainPlayerLastScore;
-    private int opposingPlayerLastScore;
+    private final int[] mainPlayerScores = new int[2];
+    private final int[] opposingPlayerScores = new int[2];
     private Deque<StrategyChoice> mainPlayerChoicesHistory;
     private Deque<StrategyChoice> opposingPlayerChoicesHistory;
 
@@ -38,21 +38,39 @@ public class StrategyExecutionData {
         return this;
     }
 
-    public int getMainPlayerLastScore() {
-        return mainPlayerLastScore;
+    public int getMainPlayerScore() {
+        return mainPlayerScores[0];
     }
 
-    public StrategyExecutionData setMainPlayerLastScore(int mainPlayerLastScore) {
-        this.mainPlayerLastScore = mainPlayerLastScore;
+    public StrategyExecutionData setMainPlayerScore(int mainPlayerScore) {
+        mainPlayerScores[0] = mainPlayerScore;
         return this;
     }
 
-    public int getOpposingPlayerLastScore() {
-        return opposingPlayerLastScore;
+    public int getMainPlayerPreviousScore() {
+        return mainPlayerScores[1];
     }
 
-    public StrategyExecutionData setOpposingPlayerLastScore(int opposingPlayerLastScore) {
-        this.opposingPlayerLastScore = opposingPlayerLastScore;
+    public StrategyExecutionData setMainPlayerPreviousScore(int mainPlayerPreviousScore) {
+        mainPlayerScores[1] = mainPlayerPreviousScore;
+        return this;
+    }
+
+    public int getOpposingPlayerScore() {
+        return opposingPlayerScores[0];
+    }
+
+    public StrategyExecutionData setOpposingPlayerScore(int opposingPlayerScore) {
+        opposingPlayerScores[0] = opposingPlayerScore;
+        return this;
+    }
+
+    public int getOpposingPlayerPreviousScore() {
+        return opposingPlayerScores[1];
+    }
+
+    public StrategyExecutionData setOpposingPlayerPreviousScore(int opposingPlayerPreviousScore) {
+        opposingPlayerScores[1] = opposingPlayerPreviousScore;
         return this;
     }
 
