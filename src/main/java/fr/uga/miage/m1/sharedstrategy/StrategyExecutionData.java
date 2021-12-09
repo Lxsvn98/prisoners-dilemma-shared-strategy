@@ -86,11 +86,11 @@ public class StrategyExecutionData {
         }
     }
 
-    private StrategyChoice getMainPlayerLastChoice() {
+    public StrategyChoice getMainPlayerLastChoice() {
         return getPlayerLastChoice(true);
     }
 
-    private StrategyChoice getOpposingPlayerLastChoice() {
+    public StrategyChoice getOpposingPlayerLastChoice() {
         return getPlayerLastChoice(false);
     }
 
