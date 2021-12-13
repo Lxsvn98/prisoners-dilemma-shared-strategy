@@ -15,7 +15,7 @@ Pour utiliser ce repository en tant que module, il suffit d'ajouter les lignes s
     <dependency>
         <groupId>com.github.Lxsvn98</groupId>
         <artifactId>prisoners-dilemma-shared-strategy</artifactId>
-        <version>1.0.4</version>
+        <version>1.0.5</version>
     </dependency>
     ...
 </dependencies>
