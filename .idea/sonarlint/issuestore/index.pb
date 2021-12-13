@@ -8,7 +8,5 @@ W
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 w
 Gsrc/main/java/fr/uga/miage/m1/sharedstrategy/StrategyExecutionData.java,9/a/9a2c2a6dd94a1b386232791d6e9b2ca6cb10fc9f

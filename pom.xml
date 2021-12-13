@@ -6,7 +6,7 @@
 
     <groupId>fr.uga.miage.m1</groupId>
     <artifactId>shared-strategy</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.5</version>
     <packaging>jar</packaging>
 
     <name>Prisoner's Dilemma Shared Strategy</name>
