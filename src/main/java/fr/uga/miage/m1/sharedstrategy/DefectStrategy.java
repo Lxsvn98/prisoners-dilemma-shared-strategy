@@ -1,6 +1,6 @@
 package fr.uga.miage.m1.sharedstrategy;
 
-final class DefectStrategy implements IStrategy {
+public final class DefectStrategy implements IStrategy {
     @Override
     public String getUniqueId() {
         return "DEFECT";
