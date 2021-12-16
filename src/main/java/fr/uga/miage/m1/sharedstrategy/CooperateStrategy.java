@@ -1,6 +1,6 @@
 package fr.uga.miage.m1.sharedstrategy;
 
-final class CooperateStrategy implements IStrategy {
+public final class CooperateStrategy implements IStrategy {
     @Override
     public String getUniqueId() {
         return "COOPERATE";
